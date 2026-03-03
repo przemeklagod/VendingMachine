@@ -1,0 +1,8 @@
+{
+  "codes": {
+    "100001": { "type": "locker", "board": 1, "lock": 1, "door": 1 },
+    "100002": { "type": "locker", "board": 1, "lock": 1, "door": 2 },
+    "200101": { "type": "spiral", "board": 1, "channel": 1 },
+    "200102": { "type": "spiral", "board": 1, "channel": 2 }
+  }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvCardLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card number"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="12dp"
+        android:background="#EEEEEE"
+        android:text="-"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter numeric code"
+        android:inputType="number"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ready" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="3">
+
+        <Button android:id="@+id/btn1" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="1" />
+        <Button android:id="@+id/btn2" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="2" />
+        <Button android:id="@+id/btn3" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="3" />
+
+        <Button android:id="@+id/btn4" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="4" />
+        <Button android:id="@+id/btn5" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="5" />
+        <Button android:id="@+id/btn6" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="6" />
+
+        <Button android:id="@+id/btn7" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="7" />
+        <Button android:id="@+id/btn8" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="8" />
+        <Button android:id="@+id/btn9" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="9" />
+
+        <Button android:id="@+id/btnClear" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="CLR" />
+        <Button android:id="@+id/btn0" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="0" />
+        <Button android:id="@+id/btnBack" android:layout_width="0dp" android:layout_height="56dp" android:layout_columnWeight="1" android:text="DEL" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="ENTER" />
+
+</LinearLayout>
