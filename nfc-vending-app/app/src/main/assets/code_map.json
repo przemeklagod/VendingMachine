@@ -2,7 +2,20 @@
   "codes": {
     "100001": { "type": "locker", "board": 1, "lock": 1, "door": 1 },
     "100002": { "type": "locker", "board": 1, "lock": 1, "door": 2 },
+    "100003": { "type": "locker", "board": 1, "lock": 1, "door": 3 },
+    "100101": { "type": "locker", "board": 1, "lock": 2, "door": 1 },
+    "100102": { "type": "locker", "board": 1, "lock": 2, "door": 2 },
+    "100103": { "type": "locker", "board": 1, "lock": 2, "door": 3 },
+
     "200101": { "type": "spiral", "board": 1, "channel": 1 },
-    "200102": { "type": "spiral", "board": 1, "channel": 2 }
+    "200102": { "type": "spiral", "board": 1, "channel": 2 },
+    "200103": { "type": "spiral", "board": 1, "channel": 3 },
+    "200104": { "type": "spiral", "board": 1, "channel": 4 },
+    "200105": { "type": "spiral", "board": 1, "channel": 5 },
+    "200106": { "type": "spiral", "board": 1, "channel": 6 },
+
+    "210101": { "type": "spiral", "board": 2, "channel": 1 },
+    "210102": { "type": "spiral", "board": 2, "channel": 2 },
+    "210103": { "type": "spiral", "board": 2, "channel": 3 }
   }
 }
